@@ -10,6 +10,7 @@ var total = sports.push('football', 'swimming');
 // 2.
 // Using the `strings` array, wrte a function `longestString()`
 // that accepts an array argument and returns the longest string in the array
+var strings = ["tennis", "ball", "collection", "racket"]
 function longestWord(array){
 currentWord=[];
   for(var i=0; i<array.length; i++){
@@ -20,7 +21,7 @@ currentWord=[];
         }
     }
   }
-  return currentWord 
+  return currentWord
 };
 
 console.log(longestWord(strings));
